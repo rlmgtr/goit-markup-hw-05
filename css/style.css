@@ -524,8 +524,10 @@ fill: currentColor;
   .portfolio-link:focus
    {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translate(0%)
+    /* hw5 */
+    transform: translateY(0%);
   }
+
 
 /* ----------- footer style - index and portfolio ------------*/
 .footer-style {
@@ -610,7 +612,7 @@ margin-bottom: 16px;
     }
 
   .footer-svg {
-  fill: var(--cloud);
+  fill: var(--cloud);}
   
 
 .footer-style {
@@ -639,7 +641,8 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+/* hw5 */
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .socmed-link:hover,
