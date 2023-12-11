@@ -528,6 +528,11 @@ fill: currentColor;
     transform: translateY(0%);
   }
 
+  .portfolio-link:hover,
+  .portfolio-link:focus {
+    transform: translateY(0%);
+  }
+
 
 /* ----------- footer style - index and portfolio ------------*/
 .footer-style {
@@ -642,7 +647,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 /* hw5 */
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .socmed-link:hover,
