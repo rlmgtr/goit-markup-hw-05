@@ -435,6 +435,9 @@ fill: currentColor;
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
+  /* hw5 */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   
 }
 .portfolio-button-style :hover,
@@ -512,12 +515,16 @@ fill: currentColor;
 /* hw4 */
 .portfolio-link {
   display:block;
+  /* hw5 */
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   }
   
   .portfolio-link:hover,
   .portfolio-link:focus
    {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translate(0%)
   }
 
 /* ----------- footer style - index and portfolio ------------*/
