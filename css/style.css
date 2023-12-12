@@ -527,8 +527,8 @@ fill: currentColor;
   }
 
 /* hw5 */
-  .portfolio-link:hover,
-  .portfolio-link:focus {
+  .image-container:hover,
+  .image-container:focus {
     transform: translateY(0%);
   }
 
