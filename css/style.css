@@ -527,7 +527,9 @@ fill: currentColor;
   }
 
 /* hw5 */
-  .portfolio:hover .p-in-imgcontainer,
+  .portfolio:hover .p-in-imgcontainer {
+    transform: translateY(0%);
+  }
   .portfolio:focus .p-in-imgcontainer {
     transform: translateY(0%);
   }
