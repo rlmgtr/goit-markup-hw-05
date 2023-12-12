@@ -527,12 +527,11 @@ fill: currentColor;
   }
 
 /* hw5 */
-  .portfolio-link:hover .p-in-imgcontainer {
-    transform: translateY(0%);
-  }
+  .portfolio-link:hover .p-in-imgcontainer,
   .portfolio-link:focus .p-in-imgcontainer {
     transform: translateY(0%);
   }
+
 
 /* hw5 */
 .image-container {
