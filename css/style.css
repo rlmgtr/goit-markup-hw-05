@@ -725,7 +725,7 @@ pointer-events: none;
 .modal-button :focus
  {
   background-color: var(--ocean);
-  border: none;  
+  border: none;
 }
 
 
