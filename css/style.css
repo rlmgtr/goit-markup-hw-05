@@ -527,8 +527,8 @@ fill: currentColor;
   }
 
 /* hw5 */
-  .image-container:hover,
-  .image-container:focus {
+  .p-in-imgcontainer:hover,
+  .p-in-imgcontainer:focus {
     transform: translateY(0%);
   }
 
@@ -684,7 +684,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+
 
 }
 
