@@ -518,7 +518,6 @@ fill: currentColor;
   display:block;
   /* hw5 */
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   }
   
   .portfolio-link:hover,
@@ -528,8 +527,8 @@ fill: currentColor;
   }
 
 /* hw5 */
-  .portfolio:hover,
-  .portfolio:focus {
+  .portfolio:hover .p-in-imgcontainer,
+  .portfolio:focus .p-in-imgcontainer {
     transform: translateY(0%);
   }
 
