@@ -148,7 +148,7 @@ img {
   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
-/* ----------- index section one ------------*/
+/* ----------- index first section ------------*/
 .first-section {
   background-color: var(--navyblue);
 /* hw3 */
@@ -219,7 +219,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* ----------- index section two ------------*/
+/* ----------- index second section ------------*/
 .section-two-headers {
   font-weight: 500;
   font-size: 20px;
@@ -282,7 +282,7 @@ img {
   margin: 8px;
 }
 
-/* ----------- index section three ------------*/
+/* ----------- index third section ------------*/
 .section-three-header {
   font-size: 36px;
   line-height: 1.11;
@@ -307,7 +307,7 @@ img {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/* ----------- index section four ------------*/
+/* ----------- index fourth section ------------*/
 
 .container-secfour {
   background-color: var(--cloud);
@@ -372,7 +372,7 @@ img {
   padding: 32px 0;
 }
 
-/* ----------- index section five ------------*/
+/* ----------- index fifth section ------------*/
 /* hw4 */
 .section-five {
   padding-top: 120px;
@@ -428,7 +428,7 @@ list-style: none;
 fill: currentColor;
 }
 
-/* ----------- portfolio section main ------------*/
+/* ----------- portfolio main section ------------*/
 
 .portfolio-button-style {
   font-family: Roboto, sans-serif;
@@ -579,7 +579,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-style {
-  
+  /* class not deleted yet for future reference - moved properties in div class to align boarder color */
 }
 
 .footer-paragraph {
