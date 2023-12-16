@@ -207,7 +207,7 @@ img {
   margin: 0 auto;
   margin-top: 48px;
   /* hw5 */
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button-li :focus,
