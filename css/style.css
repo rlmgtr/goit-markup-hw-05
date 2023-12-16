@@ -25,14 +25,15 @@
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 21px
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
 /* hw3 */
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 25.5px;
+    margin-top: 25.5px;
   }
 
 .link:hover,
@@ -204,6 +205,7 @@ img {
   cursor: pointer;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 48px;
   /* hw5 */
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -306,8 +308,17 @@ img {
 }
 
 /* ----------- index section four ------------*/
-.fourth-section {
+
+.container-secfour {
   background-color: var(--cloud);
+  padding: 120px 0;
+  width: 1440px;
+  background-size: cover;
+  padding-left: 120px;
+}
+
+.fourth-section {
+  /* class not deleted yet for future reference - moved properties in div class to align boarder color */
 }
 
 .fourth-section-header {
@@ -317,7 +328,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
-  background-color: var(--white);
+
 /* hw3 */
   margin-bottom: 72px;
 }
@@ -341,16 +352,12 @@ img {
 /* hw3 */
   text-align: center;
 }
-
 /* hw3 */
-.fourth-section {
-  padding: 120px 0;
-}
 
 .fourth-section-ul {
   display: flex;
   gap: 24px;
-
+  padding 
 }
 
 .employee-li-style {
@@ -554,11 +561,27 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ----------- footer style - index and portfolio ------------*/
-.footer-style {
+.footer-div {
+  display: flex;
   background-color: var(--navyblue);
+  width: 1440px;
+  height: 312px;
+  top: 2888px;
+  
+}
+
+.footer-contents {
+  margin-left: 156px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   align-items: baseline;
 }
+
+.footer-style {
+  
+}
+
 .footer-paragraph {
   font-weight: 500;
   line-height: 1.5;
@@ -571,10 +594,7 @@ display: block;
 margin-bottom: 16px;
 }
 
-.footer-div {
-  display: flex;
-  align-items: baseline;
-}
+
 
 .footer-socmed-div .footer-ul {gap:16px;} 
 
