@@ -740,9 +740,8 @@ pointer-events: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-close :hover,
-.modal-button-close :focus
- {
+.modal-button-close:hover,
+.modal-button-close:focus {
   background-color: var(--ocean);
   border: none;
 }
@@ -751,9 +750,9 @@ pointer-events: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button-close :hover, 
-.modal-button-close :focus {
-  fill: var(--white)
+.modal-svg:hover, 
+.modal-svg:focus {
+  fill: var(--white);
 }
 
 
