@@ -752,7 +752,7 @@ pointer-events: none;
 }
 
 .modal-svg :hover, 
-.modal-svg:focus {
+.modal-svg :focus {
   fill: var(--white)
 }
 
